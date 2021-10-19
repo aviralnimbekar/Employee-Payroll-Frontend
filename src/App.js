@@ -1,17 +1,10 @@
+import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import EmployeePayroll from './Components/employee-payroll/EmployeePayroll';
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Switch>
-          <Route path="">
-            <EmployeePayroll/>
-         </Route>
-        </Switch>
-      </Router>
+      <h1>hello from Bridgelabz</h1>
     </div>
   );
 }
